@@ -20,7 +20,11 @@
 
 ### Run Application!
 
+Start MySQL server
 Run 'wire-db.sql' to create a database on mysql server and insert test data
+```
+myaql> source wire-db.sql;
+```
 
 ```
 go build main.go
