@@ -27,8 +27,10 @@ Start MySQL server, go to project directory and run 'wire-db.sql' on Terminal to
 mysql -u root -p < wire-db.sql
 ```
 
-Then start running Go server by runninig
+Then go to server directory, start running Go server by
 ```
+go get -u github.com/go-sql-driver/mysql
+
 go build main.go
 go mod tidy
 go run main.go
