@@ -37,6 +37,8 @@ yarn dev --port 3005
 
 go to http://localhost:3005
 
+![alt text](demo-img.png)
+
 ### Things you can do on App
 - sort table by each column by clicking on column headers
 - go to previous or next page (each page can have 10 items)
