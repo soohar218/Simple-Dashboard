@@ -24,11 +24,11 @@
 
 Start MySQL server and run 'wire-db.sql' to create a database on mysql server and insert test data
 ```
-mysql -u root -p yourpassword < wire-db.sql
+mysql -u root < wire-db.sql
 ```
 if above code doesn't work,
 ```
-mysql -u yourusername -p yourpassword
+mysql -u yourusername
 mysql>CREATE DATABASE wire_dashboard
 ...
 ```
@@ -41,7 +41,7 @@ go mod tidy
 go run main.go
 ```
 
-inside client directory, run
+On a new terminal, go to client directory, run
 ```
 yarn install
 yarn add @mantine/form swr react-table
