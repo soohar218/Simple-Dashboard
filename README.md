@@ -38,7 +38,7 @@ go mod tidy
 go run main.go
 ```
 
-On a new terminal, go to client directory, run
+Once terminal prints out 'Listening and serving HTTP on localhost:8080', on a new terminal, go to client directory, run
 ```
 yarn install
 yarn add @mantine/form swr react-table
