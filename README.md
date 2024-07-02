@@ -7,7 +7,8 @@
 - React Vite client
 - MySQL Database
 - Typsescript
-- Mantine, SWR React library 
+- Mantine, SWR React library
+- MacOS x86
 
 ## How to Run
 
