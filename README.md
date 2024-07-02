@@ -30,7 +30,7 @@ mysql -u root < wire-db.sql   # if root no password
 mysql -u root -p < wire-db.sql   # if root has password
 ```
 
-Then go to server directory, start running Go server by
+Then go to **server** directory, start running Go server by
 ```
 go get -u github.com/go-sql-driver/mysql
 
@@ -39,7 +39,7 @@ go mod tidy
 go run main.go
 ```
 
-Once terminal prints out 'Listening and serving HTTP on localhost:8080', on a new terminal, go to client directory, run
+Once terminal prints out 'Listening and serving HTTP on localhost:8080', on a new terminal, go to **client** directory, run
 ```
 yarn install
 yarn add @mantine/form swr react-table
