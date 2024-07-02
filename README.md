@@ -25,7 +25,8 @@
 Download the project zip file and open.
 Start MySQL server, go to project directory and run 'wire-db.sql' on Terminal to create a database on mysql server and insert test data
 ```
-mysql -u root -p < wire-db.sql
+mysql -u root < wire-db.sql # if root no password
+mysql -u root -p < wire-db.sql # if root has password
 ```
 
 Then go to server directory, start running Go server by
