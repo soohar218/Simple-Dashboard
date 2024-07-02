@@ -15,6 +15,7 @@
 ### Prerequisits
 - Go(lang) installed (https://go.dev/dl/)
 - MySql server installed (`brew install mysql`)
+- npm and yarn installed (`brew install node`, `npm install yarn`)
 
 ### PORT descriptions
 - API Endpoints PORT 8080
