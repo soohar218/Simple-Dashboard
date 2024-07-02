@@ -15,7 +15,7 @@
 
 ### PORT descriptions
 - API Endpoints PORT 8080
-- MySQL DB Server PORT 3306
+- MySQL DB Server PORT 3306 (default)
 - React Client App PORT 3005
 
 ### Run Application!
@@ -23,8 +23,15 @@
 Start MySQL server
 Run 'wire-db.sql' to create a database on mysql server and insert test data
 ```
-myaql> source wire-db.sql;
+mysql -u root -p yourpassword < text_file
 ```
+if above code doesn't work,
+```
+mysql -u yourusername -p yourpassword
+mysql>CREATE DATABASE wire_dashboard
+...
+```
+and run rest of the SQL queries in wire-db.sql.
 
 ```
 go build main.go
@@ -64,3 +71,4 @@ go to http://localhost:3005
 - Not using react-table for sortable table with pagination: known issue with fetch 
 - Use more open source front-end componentes to reduce the time spent on front-end development
 - I misread the minimum requirements of the case study in the beginning, which led to poor priority management
+- Improve how to run this app with simpler scripts to minimize terminal commands given more time
