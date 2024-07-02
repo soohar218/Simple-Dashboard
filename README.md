@@ -23,8 +23,7 @@
 - React Client App PORT 3005
 
 ### Run Application!
-Download the project zip file and open.
-Start MySQL server `brew services start mysql`, go to project directory and run 'wire-db.sql' on Terminal to create a database on mysql server and insert test data
+Open the donloaded project zip file. Start MySQL server by running `brew services start mysql` on terminal, then go to project directory and run 'wire-db.sql' to create a database on mysql server and insert test data
 ```
 mysql -u root < wire-db.sql   # if root no password
 mysql -u root -p < wire-db.sql   # if root has password
