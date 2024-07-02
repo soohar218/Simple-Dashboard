@@ -22,8 +22,7 @@
 
 ### Run Application!
 
-Start MySQL server
-Run 'wire-db.sql' to create a database on mysql server and insert test data
+Start MySQL server and run 'wire-db.sql' to create a database on mysql server and insert test data
 ```
 mysql -u root -p yourpassword < wire-db.sql
 ```
