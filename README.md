@@ -1,5 +1,7 @@
 # Simple Wire Dashboard
 
+![alt text](demo-img.png)
+
 ## What's Used
 - Go server with Gin
 - React Vite client
@@ -46,10 +48,7 @@ yarn add @mantine/form swr react-table
 yarn dev --port 3005
 ```
 
-go to http://localhost:3005
-
-### What the App Looks like:
-![alt text](demo-img.png)
+go to http://localhost:3005 and play with the app!
 
 ### Things you can do on App
 - sort table by each column by clicking on column headers
