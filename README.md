@@ -13,7 +13,7 @@
 
 ### Prerequisits
 - Go installed
-- MySql server installed (https://dev.mysql.com/downloads/mysql/)
+- MySql server installed (https://dev.mysql.com/downloads/mysql/ or 'brew install mysql')
 
 ### PORT descriptions
 - API Endpoints PORT 8080
