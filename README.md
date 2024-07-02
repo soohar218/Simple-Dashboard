@@ -23,7 +23,7 @@
 Start MySQL server
 Run 'wire-db.sql' to create a database on mysql server and insert test data
 ```
-mysql -u root -p yourpassword < text_file
+mysql -u root -p yourpassword < wire-db.sql
 ```
 if above code doesn't work,
 ```
