@@ -35,13 +35,14 @@ mysql>CREATE DATABASE wire_dashboard
 ```
 and run rest of the SQL queries in wire-db.sql.
 
+Then start running Go server by runninig
 ```
 go build main.go
 go mod tidy
 go run main.go
 ```
 
-inside client directory,
+inside client directory, run
 ```
 yarn install
 yarn add @mantine/form swr react-table
