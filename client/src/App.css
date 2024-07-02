@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.data-container {
+  width: 85%;
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 0 2px 20px rgba(0, 0, 0,0.1);
+  border-radius: 10px;
+}
+
+.pagination {
+  margin: auto;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.pagination button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin-top: 10px;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.pagination button:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+form {
+  justify-content: space-around;
+  padding: 5px 20px 5px 20px;
+  width: 100%;
+  height: 50%;
+  background-color: #FFF;
+  box-shadow: 0 2px 20px rgba(0, 0, 0,0.1);
+  border-radius: 10px;
+}
+
+.recent-activity {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px 20px 5px 20px;
+  background-color: #0055b7;
+  box-shadow: 0 2px 20px rgba(0, 0, 0,0.1);
+  border-radius: 10px;
+  color: #FFF;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+td, th {
+  padding: 5px 25px 5px 25px;  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+th {
+  background-color: #FFF;
+}

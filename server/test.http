@@ -1,0 +1,18 @@
+GET http://localhost:8080/messages
+###
+
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+    "seq": 5, 
+    "sender_rtn": 151000001, 
+    "sender_an": 629385443170308, 
+    "receiver_rtn": 121145307, 
+    "receiver_an": 136657407199052, 
+    "amount": 6666
+}
+###
+
+GET http://localhost:8080/messages/last
+###
