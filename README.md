@@ -48,6 +48,7 @@ yarn dev --port 3005
 
 go to http://localhost:3005
 
+### What the App Looks like:
 ![alt text](demo-img.png)
 
 ### Things you can do on App
