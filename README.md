@@ -65,3 +65,5 @@ go to http://localhost:3005 and play with the app!
 - Use more open source front-end componentes to reduce the time spent on front-end development
 - I misread the minimum requirements of the case study in the beginning, which led to poor priority management
 - Improve how to run this app with simpler scripts to minimize terminal commands given more time
+
+Thank you!
