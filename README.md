@@ -13,7 +13,7 @@
 ## How to Run
 
 ### Prerequisits
-- Go installed
+- Go(lang) installed (https://go.dev/dl/)
 - MySql server installed (`brew install mysql`)
 
 ### PORT descriptions
