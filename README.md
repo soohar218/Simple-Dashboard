@@ -14,7 +14,7 @@
 
 ### Prerequisits
 - Go installed
-- MySql server installed (`brew install mysql` or https://dev.mysql.com/downloads/mysql/)
+- MySql server installed (`brew install mysql`)
 
 ### PORT descriptions
 - API Endpoints PORT 8080
@@ -23,7 +23,7 @@
 
 ### Run Application!
 Download the project zip file and open.
-Start MySQL server, go to project directory and run 'wire-db.sql' on Terminal to create a database on mysql server and insert test data
+Start MySQL server `brew services start mysql`, go to project directory and run 'wire-db.sql' on Terminal to create a database on mysql server and insert test data
 ```
 mysql -u root < wire-db.sql   # if root no password
 mysql -u root -p < wire-db.sql   # if root has password
