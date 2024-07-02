@@ -26,13 +26,6 @@ Start MySQL server and run 'wire-db.sql' to create a database on mysql server an
 ```
 mysql -u root < wire-db.sql
 ```
-if above code doesn't work,
-```
-mysql -u yourusername
-mysql>CREATE DATABASE wire_dashboard
-...
-```
-and run rest of the SQL queries in wire-db.sql.
 
 Then start running Go server by runninig
 ```
